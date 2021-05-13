@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,10 @@
 		49469B9B264409D700B7EE64 /* Wack.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 49469B9A264409A400B7EE64 /* Wack.rcproject */; };
 		49469BA32645019B00B7EE64 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49469BA22645019B00B7EE64 /* LoginViewController.swift */; };
 		49469BA6264501B400B7EE64 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49469BA5264501B400B7EE64 /* SignUpViewController.swift */; };
+		49DC93EA2648A43A00833434 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC93E92648A43A00833434 /* StartGameViewController.swift */; };
+		49DC93ED264BAEEB00833434 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC93EC264BAEEB00833434 /* ARViewController.swift */; };
+		49E167782647DF1200D49CF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49E167772647DF1200D49CF0 /* GoogleService-Info.plist */; };
+		808A6EDF523B6816D22224FE /* Pods_Wack_A_Nutcracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8CAB28D3ED4CE6800F7B9A9 /* Pods_Wack_A_Nutcracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,12 @@
 		49469B9A264409A400B7EE64 /* Wack.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Wack.rcproject; path = "/Users/miguel/Documents/GitHub/WackANutCracker/Wack-A-Nutcracker/Wack-A-Nutcracker/Wack.rcproject"; sourceTree = "<absolute>"; };
 		49469BA22645019B00B7EE64 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		49469BA5264501B400B7EE64 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		49DC93E92648A43A00833434 /* StartGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
+		49DC93EC264BAEEB00833434 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		49E167772647DF1200D49CF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4AD6B609F7348A6180AEEB24 /* Pods-Wack-A-Nutcracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wack-A-Nutcracker.debug.xcconfig"; path = "Target Support Files/Pods-Wack-A-Nutcracker/Pods-Wack-A-Nutcracker.debug.xcconfig"; sourceTree = "<group>"; };
+		ABADF78A067F9C3E4DD05B86 /* Pods-Wack-A-Nutcracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wack-A-Nutcracker.release.xcconfig"; path = "Target Support Files/Pods-Wack-A-Nutcracker/Pods-Wack-A-Nutcracker.release.xcconfig"; sourceTree = "<group>"; };
+		F8CAB28D3ED4CE6800F7B9A9 /* Pods_Wack_A_Nutcracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wack_A_Nutcracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808A6EDF523B6816D22224FE /* Pods_Wack_A_Nutcracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011830645C13A541EAC97A48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AD6B609F7348A6180AEEB24 /* Pods-Wack-A-Nutcracker.debug.xcconfig */,
+				ABADF78A067F9C3E4DD05B86 /* Pods-Wack-A-Nutcracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1B8E4348573EE64B1776F2D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8CAB28D3ED4CE6800F7B9A9 /* Pods_Wack_A_Nutcracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		49469B792643EDC800B7EE64 = {
 			isa = PBXGroup;
 			children = (
 				49469B842643EDC800B7EE64 /* Wack-A-Nutcracker */,
 				49469B832643EDC800B7EE64 /* Products */,
+				1B8E4348573EE64B1776F2D8 /* Frameworks */,
+				011830645C13A541EAC97A48 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,11 +94,14 @@
 				49469B872643EDC800B7EE64 /* ViewController.swift */,
 				49469B9A264409A400B7EE64 /* Wack.rcproject */,
 				49469B8B2643EDC800B7EE64 /* Main.storyboard */,
+				49DC93EC264BAEEB00833434 /* ARViewController.swift */,
+				49DC93E92648A43A00833434 /* StartGameViewController.swift */,
 				49469BA22645019B00B7EE64 /* LoginViewController.swift */,
 				49469BA5264501B400B7EE64 /* SignUpViewController.swift */,
 				49469B8E2643EDC900B7EE64 /* Assets.xcassets */,
 				49469B902643EDC900B7EE64 /* LaunchScreen.storyboard */,
 				49469B932643EDC900B7EE64 /* Info.plist */,
+				49E167772647DF1200D49CF0 /* GoogleService-Info.plist */,
 			);
 			path = "Wack-A-Nutcracker";
 			sourceTree = "<group>";
@@ -80,9 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49469B962643EDC900B7EE64 /* Build configuration list for PBXNativeTarget "Wack-A-Nutcracker" */;
 			buildPhases = (
+				FF10FBB00358DAA7B87DC662 /* [CP] Check Pods Manifest.lock */,
 				49469B7E2643EDC800B7EE64 /* Sources */,
 				49469B7F2643EDC800B7EE64 /* Frameworks */,
 				49469B802643EDC800B7EE64 /* Resources */,
+				F398775D928E84088B0A547D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49469B922643EDC900B7EE64 /* LaunchScreen.storyboard in Resources */,
+				49E167782647DF1200D49CF0 /* GoogleService-Info.plist in Resources */,
 				49469B8F2643EDC900B7EE64 /* Assets.xcassets in Resources */,
 				49469B8D2643EDC800B7EE64 /* Main.storyboard in Resources */,
 			);
@@ -138,16 +174,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F398775D928E84088B0A547D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wack-A-Nutcracker/Pods-Wack-A-Nutcracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wack-A-Nutcracker/Pods-Wack-A-Nutcracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wack-A-Nutcracker/Pods-Wack-A-Nutcracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF10FBB00358DAA7B87DC662 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wack-A-Nutcracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		49469B7E2643EDC800B7EE64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DC93ED264BAEEB00833434 /* ARViewController.swift in Sources */,
 				49469BA32645019B00B7EE64 /* LoginViewController.swift in Sources */,
 				49469B882643EDC800B7EE64 /* ViewController.swift in Sources */,
 				49469B862643EDC800B7EE64 /* AppDelegate.swift in Sources */,
 				49469B9B264409D700B7EE64 /* Wack.rcproject in Sources */,
 				49469BA6264501B400B7EE64 /* SignUpViewController.swift in Sources */,
+				49DC93EA2648A43A00833434 /* StartGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +371,7 @@
 		};
 		49469B972643EDC900B7EE64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AD6B609F7348A6180AEEB24 /* Pods-Wack-A-Nutcracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +391,7 @@
 		};
 		49469B982643EDC900B7EE64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABADF78A067F9C3E4DD05B86 /* Pods-Wack-A-Nutcracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
