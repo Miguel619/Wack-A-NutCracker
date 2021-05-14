@@ -1,5 +1,5 @@
 # Wack-A-NutCracker AR Game
-I have been interested in mixed reality development for a while now so it made sense for me to make an AR application for this class.  I concurrently working on a VR game and AR app in Unity.  I was very curious to see the differences between using AR Foundations and Unity verses AR kit and Reality Composer. 
+I have been interested in mixed reality development for a while now, so it made sense for me to make an AR application for this class.  I concurrently worked on a VR game and AR app in Unity for Multiplayer Game Development and my work as Unity Developer.  I was very curious to see the differences between using AR Foundations and Unity verses AR kit and Reality Composer. 
 
 <img src="https://cdn.discordapp.com/attachments/701222956478496778/842587547812757524/image0.png" width="250" height="500"> <img src="https://cdn.discordapp.com/attachments/701222956478496778/842587548273606706/image1.png" width="250" height="500"> <img src="https://cdn.discordapp.com/attachments/701222956478496778/842587548512944168/image2.png" width="250" height="500">
 
