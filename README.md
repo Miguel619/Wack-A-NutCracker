@@ -61,3 +61,14 @@ I have been interested in mixed reality development for a while now, so it made 
 * Had to cut back leaderboard because of time limitations
 * Developing on a Macbook is a huge constraint considering I usually work on my fast gaming PC especially working with Reality Composer 
 * ARView came with a viewcontroller that I couldn't add things to so I had to make my own ViewController and add the ARView to it
+
+## Technologies used
+* AR Kit
+* Firebase Authentification
+* Reality Composer
+
+## Things to be Implemented
+* Leaderboard
+* More Levels
+* Different Targets
+* Audio
