@@ -15,8 +15,9 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var newEmail: UITextField!
     @IBOutlet weak var signupButton: UIButton!
     @IBOutlet weak var newPass: UITextField!
+    @IBOutlet weak var sign: UILabel!
     
-    var WackAR:Wack.WackANutcracker!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         newEmail.layer.cornerRadius = 22
@@ -55,8 +56,10 @@ class SignUpViewController: UIViewController {
         Auth.auth().createUser(withEmail: newEmail.text!, password: newPass.text!){ (authResult, error) in
             guard let user = authResult?.user, error == nil else {
                 print("Error \(error?.localizedDescription)")
+                self.sign.text = error?.localizedDescription
                 return
             }
+            Manager.messageText.append(self.newEmail.text!)
             // after sign up
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(identifier: "Start")

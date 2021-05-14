@@ -15,6 +15,7 @@
 		49469B9B264409D700B7EE64 /* Wack.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 49469B9A264409A400B7EE64 /* Wack.rcproject */; };
 		49469BA32645019B00B7EE64 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49469BA22645019B00B7EE64 /* LoginViewController.swift */; };
 		49469BA6264501B400B7EE64 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49469BA5264501B400B7EE64 /* SignUpViewController.swift */; };
+		49D4CCBA264E0E1800C8EF90 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D4CCB9264E0E1800C8EF90 /* Manager.swift */; };
 		49DC93EA2648A43A00833434 /* StartGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC93E92648A43A00833434 /* StartGameViewController.swift */; };
 		49DC93ED264BAEEB00833434 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49DC93EC264BAEEB00833434 /* ARViewController.swift */; };
 		49E167782647DF1200D49CF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49E167772647DF1200D49CF0 /* GoogleService-Info.plist */; };
@@ -32,6 +33,7 @@
 		49469B9A264409A400B7EE64 /* Wack.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; name = Wack.rcproject; path = "/Users/miguel/Documents/GitHub/WackANutCracker/Wack-A-Nutcracker/Wack-A-Nutcracker/Wack.rcproject"; sourceTree = "<absolute>"; };
 		49469BA22645019B00B7EE64 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		49469BA5264501B400B7EE64 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		49D4CCB9264E0E1800C8EF90 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		49DC93E92648A43A00833434 /* StartGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartGameViewController.swift; sourceTree = "<group>"; };
 		49DC93EC264BAEEB00833434 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		49E167772647DF1200D49CF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				49DC93E92648A43A00833434 /* StartGameViewController.swift */,
 				49469BA22645019B00B7EE64 /* LoginViewController.swift */,
 				49469BA5264501B400B7EE64 /* SignUpViewController.swift */,
+				49D4CCB9264E0E1800C8EF90 /* Manager.swift */,
 				49469B8E2643EDC900B7EE64 /* Assets.xcassets */,
 				49469B902643EDC900B7EE64 /* LaunchScreen.storyboard */,
 				49469B932643EDC900B7EE64 /* Info.plist */,
@@ -224,6 +227,7 @@
 				49DC93ED264BAEEB00833434 /* ARViewController.swift in Sources */,
 				49469BA32645019B00B7EE64 /* LoginViewController.swift in Sources */,
 				49469B882643EDC800B7EE64 /* ViewController.swift in Sources */,
+				49D4CCBA264E0E1800C8EF90 /* Manager.swift in Sources */,
 				49469B862643EDC800B7EE64 /* AppDelegate.swift in Sources */,
 				49469B9B264409D700B7EE64 /* Wack.rcproject in Sources */,
 				49469BA6264501B400B7EE64 /* SignUpViewController.swift in Sources */,

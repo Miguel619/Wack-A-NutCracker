@@ -13,6 +13,8 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var SIgninButton: UIButton!
     @IBOutlet weak var password: UITextField!
+    @IBOutlet weak var sign: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -63,6 +65,8 @@ class LoginViewController: UIViewController {
             guard let strongSelf = self else {return}
             if let error = error {
                 print(error.localizedDescription)
+                self?.sign.text = error.localizedDescription
+                return
             }
             self!.checkUserInfo()
         }
@@ -71,6 +75,7 @@ class LoginViewController: UIViewController {
     func checkUserInfo() {
         if Auth.auth().currentUser != nil {
             print(Auth.auth().currentUser?.uid)
+            Manager.messageText.append(self.username.text!)
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let vc = storyboard.instantiateViewController(identifier: "Start")
             vc.modalPresentationStyle = .overFullScreen
