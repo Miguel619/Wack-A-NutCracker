@@ -53,7 +53,7 @@ I have been interested with mixed reality development for a while now so it made
 11. The user also gains time when he scores
 12. After the game is over, the user can reset it and start again
 
-![Alt Text](https://media.giphy.com/media/7JhylgU3Q303XfbCBL/giphy.gif)
+![Alt Text](4.gif)
 
 ## Challenges
 * AR doesn't always work as expected, especially in dark areas
